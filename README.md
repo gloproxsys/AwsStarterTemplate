@@ -4,6 +4,15 @@ AWS CodeStar Sample ASP.NET Core Web Service
 This sample code helps get you started with a simple ASP.NET Core web service
 deployed by AWS CodeDeploy to an Amazon EC2 server.
 
+Note from Gene
+-----------
+So the only way that I've found to put an application into the AWS continuous
+integration pipeline is to start from a sample app.  The one in this project
+is as minimalist as possible.
+
+The key things we need to look at are the various .yml files and directories
+described below.
+
 What's Here
 -----------
 
